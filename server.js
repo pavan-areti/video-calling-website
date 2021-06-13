@@ -1,7 +1,7 @@
 var webSocketServ = require('ws').Server;
 
 var wss = new webSocketServ({
-  port:process.env.PORT ||9090
+  port: process.env.PORT || 9090
 })
 
 var users = {};
